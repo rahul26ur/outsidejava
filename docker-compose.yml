@@ -7,7 +7,7 @@ services:
        container_name: hello_app
        image: helloimage:rahul
        volumes:
-          - ./rah-rest-webservices:/var/www/html/
+          - ./src:/var/www/html/
        ports:
          - 8085:80
  
