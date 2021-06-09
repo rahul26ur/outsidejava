@@ -2,7 +2,7 @@ node{
       
     stage('SCM Checkout')
     {
-         git url: 'https://github.com/rahul26ur/outsidejava.git'
+         url: 'https://github.com/rahul26ur/outsidejava.git'
        
     }
     
