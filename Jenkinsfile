@@ -2,8 +2,8 @@ node{
       
     stage('SCM Checkout')
     {
-        //git url: 'http://172.24.19.82/rahul_cept/dummy.git'
-        git credentialsId: 'GIT_CREDENTIALS', url: 'http://172.24.19.82/rahul_cept/dummy.git'
+         git url: 'https://github.com/rahul26ur/outsidejava.git'
+       
     }
     
     
@@ -24,7 +24,7 @@ node{
          //sh "cd /var/lib/jenkins/workspace/rahjava8 \n /usr/bin/mvn clean package spring-boot:repackage"
           //sh "cd /var/lib/jenkins/workspace/rahjava8 \n /usr/bin/mvn clean package"
          //sh "cd /var/lib/jenkins/workspace/rahjava8 \n /usr/bin/mvn clean package  -Dstart-class=com.rah.rest.webservices.rahrestwebservices.helloworld"
-         sh "cd /var/lib/jenkins/workspace/rahjava7 \n /usr/bin/mvn clean package"
+         sh "cd /var/lib/jenkins/workspace/rahjava10 \n /usr/bin/mvn clean package"
         
       
     }
